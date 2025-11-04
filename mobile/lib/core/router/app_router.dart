@@ -7,6 +7,7 @@ import '../../features/authentication/presentation/pages/splash_page.dart';
 import '../../features/home/presentation/pages/home_page.dart';
 import '../../features/expenses/presentation/pages/expense_list_page.dart';
 import '../../features/expenses/presentation/pages/add_expense_page.dart';
+import '../../features/settings/presentation/pages/settings_page.dart';
 
 class AppRouter {
   static final router = GoRouter(
@@ -41,6 +42,11 @@ class AppRouter {
         path: '/expenses/add',
         name: 'add-expense',
         builder: (context, state) => const AddExpensePage(),
+      ),
+      GoRoute(
+        path: '/settings',
+        name: 'settings',
+        builder: (context, state) => const SettingsPage(),
       ),
     ],
   );

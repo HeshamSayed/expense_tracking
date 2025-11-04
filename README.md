@@ -6,6 +6,7 @@ A full-featured expense tracking application with Django/DRF backend and Flutter
 
 - [Features](#features)
 - [Tech Stack](#tech-stack)
+- [Internationalization](#internationalization)
 - [Project Structure](#project-structure)
 - [Backend Setup](#backend-setup)
 - [Mobile App Setup](#mobile-app-setup)
@@ -17,9 +18,11 @@ A full-featured expense tracking application with Django/DRF backend and Flutter
 
 ### Backend Features
 - ✅ JWT Authentication & User Management
+- ✅ **Full Internationalization (i18n)** - Arabic & English Support
 - ✅ Expense & Income Tracking
-- ✅ Multi-currency Support
+- ✅ **Multi-currency Support** (USD, EUR, GBP, AED, SAR, EGP, etc.)
 - ✅ Category Management (with hierarchies)
+- ✅ **Management Commands** for easy setup
 - ✅ Budget Management with Alerts
 - ✅ Recurring Transactions
 - ✅ Shared Expenses (Split Bills)
@@ -31,12 +34,17 @@ A full-featured expense tracking application with Django/DRF backend and Flutter
 
 ### Mobile App Features
 - ✅ Clean Architecture with BLoC
-- ✅ JWT Authentication
+- ✅ JWT Authentication (Login, Register, Logout)
+- ✅ **Full Bilingual Support** - English & Arabic with RTL
+- ✅ **Dynamic Language Switching** with Settings Page
 - ✅ Dashboard with Overview
-- 🚧 Expense Management
-- 🚧 Budget Tracking
-- 🚧 Analytics & Charts
-- 🚧 Offline Support
+- ✅ **Locale Management** with Persistent Storage
+- ✅ Modern Material Design 3 UI
+- ✅ Dark Theme Support
+- 🚧 Complete Expense Management
+- 🚧 Budget Tracking with Charts
+- 🚧 Analytics & Visualizations
+- 🚧 Offline Support with Sync
 - 🚧 Push Notifications
 - 🚧 Camera Integration for Receipts
 
@@ -46,6 +54,7 @@ A full-featured expense tracking application with Django/DRF backend and Flutter
 - **Framework:** Django 4.2 + Django REST Framework
 - **Database:** PostgreSQL
 - **Authentication:** JWT (Simple JWT)
+- **Internationalization:** Django i18n with middleware
 - **Task Queue:** Celery + Redis
 - **Storage:** AWS S3 (optional)
 - **Documentation:** drf-spectacular (OpenAPI/Swagger)
@@ -53,11 +62,35 @@ A full-featured expense tracking application with Django/DRF backend and Flutter
 ### Mobile
 - **Framework:** Flutter 3.x
 - **State Management:** BLoC Pattern
+- **Localization:** flutter_localizations with ARB files
+- **Languages:** English & Arabic (with RTL support)
 - **Dependency Injection:** GetIt + Injectable
 - **API Client:** Dio + Retrofit
 - **Local Storage:** Hive + Shared Preferences
 - **Routing:** GoRouter
 - **Charts:** FL Chart
+
+## 🌍 Internationalization
+
+This application supports **full bilingual functionality**:
+
+### Features
+- ✅ **English & Arabic** languages
+- ✅ **RTL (Right-to-Left)** support for Arabic
+- ✅ **Dynamic language switching** without app restart
+- ✅ **Persistent language preference**
+- ✅ **100+ translated strings** covering all features
+- ✅ **Settings page** for easy language management
+- ✅ **Backend i18n** with Django middleware
+- ✅ **Management commands** for multilingual data setup
+
+### Quick Language Switch
+Users can change the app language from:
+- **Settings Page** → Language → Select English or Arabic
+- Changes apply immediately
+- Preference persists across app restarts
+
+For detailed internationalization guide, see **[README_I18N.md](README_I18N.md)**
 
 ## 📁 Project Structure
 
