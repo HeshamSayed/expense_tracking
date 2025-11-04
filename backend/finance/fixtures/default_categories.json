@@ -1,0 +1,167 @@
+[
+  {
+    "model": "finance.category",
+    "pk": 1,
+    "fields": {
+      "user": null,
+      "name": "Food & Dining",
+      "type": "expense",
+      "icon": "🍽️",
+      "color": "#FF6B6B"
+    }
+  },
+  {
+    "model": "finance.category",
+    "pk": 2,
+    "fields": {
+      "user": null,
+      "name": "Transportation",
+      "type": "expense",
+      "icon": "🚗",
+      "color": "#4ECDC4"
+    }
+  },
+  {
+    "model": "finance.category",
+    "pk": 3,
+    "fields": {
+      "user": null,
+      "name": "Shopping",
+      "type": "expense",
+      "icon": "🛍️",
+      "color": "#FFE66D"
+    }
+  },
+  {
+    "model": "finance.category",
+    "pk": 4,
+    "fields": {
+      "user": null,
+      "name": "Entertainment",
+      "type": "expense",
+      "icon": "🎬",
+      "color": "#95E1D3"
+    }
+  },
+  {
+    "model": "finance.category",
+    "pk": 5,
+    "fields": {
+      "user": null,
+      "name": "Bills & Utilities",
+      "type": "expense",
+      "icon": "💡",
+      "color": "#F38181"
+    }
+  },
+  {
+    "model": "finance.category",
+    "pk": 6,
+    "fields": {
+      "user": null,
+      "name": "Healthcare",
+      "type": "expense",
+      "icon": "⚕️",
+      "color": "#AA96DA"
+    }
+  },
+  {
+    "model": "finance.category",
+    "pk": 7,
+    "fields": {
+      "user": null,
+      "name": "Education",
+      "type": "expense",
+      "icon": "📚",
+      "color": "#FCBAD3"
+    }
+  },
+  {
+    "model": "finance.category",
+    "pk": 8,
+    "fields": {
+      "user": null,
+      "name": "Housing",
+      "type": "expense",
+      "icon": "🏠",
+      "color": "#A8E6CF"
+    }
+  },
+  {
+    "model": "finance.category",
+    "pk": 9,
+    "fields": {
+      "user": null,
+      "name": "Insurance",
+      "type": "expense",
+      "icon": "🛡️",
+      "color": "#C7CEEA"
+    }
+  },
+  {
+    "model": "finance.category",
+    "pk": 10,
+    "fields": {
+      "user": null,
+      "name": "Other Expense",
+      "type": "expense",
+      "icon": "📦",
+      "color": "#A8DADC"
+    }
+  },
+  {
+    "model": "finance.category",
+    "pk": 11,
+    "fields": {
+      "user": null,
+      "name": "Salary",
+      "type": "income",
+      "icon": "💰",
+      "color": "#2ECC71"
+    }
+  },
+  {
+    "model": "finance.category",
+    "pk": 12,
+    "fields": {
+      "user": null,
+      "name": "Freelance",
+      "type": "income",
+      "icon": "💼",
+      "color": "#3498DB"
+    }
+  },
+  {
+    "model": "finance.category",
+    "pk": 13,
+    "fields": {
+      "user": null,
+      "name": "Investment",
+      "type": "income",
+      "icon": "📈",
+      "color": "#9B59B6"
+    }
+  },
+  {
+    "model": "finance.category",
+    "pk": 14,
+    "fields": {
+      "user": null,
+      "name": "Gift",
+      "type": "income",
+      "icon": "🎁",
+      "color": "#E91E63"
+    }
+  },
+  {
+    "model": "finance.category",
+    "pk": 15,
+    "fields": {
+      "user": null,
+      "name": "Other Income",
+      "type": "income",
+      "icon": "💵",
+      "color": "#1ABC9C"
+    }
+  }
+]

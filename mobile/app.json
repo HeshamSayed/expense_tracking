@@ -1,0 +1,57 @@
+{
+  "name": "MoneyGuard",
+  "displayName": "MoneyGuard",
+  "version": "1.0.0",
+  "description": "Smart expense tracking and financial management app",
+  "slug": "moneyguard",
+  "scheme": "moneyguard",
+  "platforms": ["ios", "android"],
+  "orientation": "portrait",
+  "icon": "./src/assets/icon.png",
+  "userInterfaceStyle": "automatic",
+  "splash": {
+    "image": "./src/assets/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#4CAF50"
+  },
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "ios": {
+    "supportsTablet": true,
+    "bundleIdentifier": "com.moneyguard.expense",
+    "infoPlist": {
+      "NSCameraUsageDescription": "This app uses the camera to capture receipt photos for expense tracking.",
+      "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to select receipt images.",
+      "NSPhotoLibraryAddUsageDescription": "This app needs to save receipt photos to your library.",
+      "GADApplicationIdentifier": "ca-app-pub-YOUR_IOS_ADMOB_APP_ID"
+    }
+  },
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./src/assets/adaptive-icon.png",
+      "backgroundColor": "#4CAF50"
+    },
+    "package": "com.moneyguard.expense",
+    "versionCode": 1,
+    "permissions": [
+      "CAMERA",
+      "READ_EXTERNAL_STORAGE",
+      "WRITE_EXTERNAL_STORAGE",
+      "INTERNET",
+      "ACCESS_NETWORK_STATE"
+    ],
+    "config": {
+      "googleMobileAdsAppId": "ca-app-pub-YOUR_ANDROID_ADMOB_APP_ID"
+    }
+  },
+  "web": {
+    "favicon": "./src/assets/favicon.png"
+  },
+  "extra": {
+    "apiUrl": "http://localhost:3000/api",
+    "eas": {
+      "projectId": "YOUR_EAS_PROJECT_ID"
+    }
+  }
+}
